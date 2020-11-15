@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("./imagenes/116-1168442_landscape-4k-mountains.jpg");
+    background-size: cover;
+}
+
+.encabezado {
+    background-color: darkred;
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+    width: auto;
+    padding: 30px;
+}
+
+.container {
+    width: 1200;
+    margin: 10px;
+    font-family: cursive;
+    font-style: italic;
+    padding-bottom: 0px;
+}
+
+.menu {
+    float: right;
+    padding: 90px;
+    font-size: 20px;
+}
+
+.opcionesmenu li {
+    float: left;
+    list-style: none;
+}
+
+.opcionesmenu li a {
+    color: white;
+    padding: 30px;
+    text-decoration: none;
+    border: 1px solid white;
+}
+
+.opcionesmenu li a:hover {
+    background-color: teal;
+}
+
+#footer2 {
+    height: -5px;
+    width: auto;
+    background-color: darkred;
+    height: 300px;
+}
+
+#footer2 #informacion {
+    position: absolute;
+    height: 260px;
+    padding-left: 450px;
+    padding-top: 30px;
+    width: 200px;
+    color: white;
+}
+
+#footer2 #informacion2 {
+    position: absolute;
+    height: 260px;
+    padding-left: 750px;
+    padding-top: 30px;
+    width: 200px;
+    color: white;
+}
+
+#footer2 #informacion3 {
+    position: absolute;
+    height: 260px;
+    padding-left: 700px;
+    padding-top: 30px;
+    width: 200px;
+    color: white;
+}
+
+#footer2 h3 {
+    padding-bottom: 30px;
+}
+
+#contacto {
+    border: solid 2px black;
+    height: 495px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    width: 97%;
+}
+
+.redsocial {
+    width: 25px;
+    height: 25px;
+}

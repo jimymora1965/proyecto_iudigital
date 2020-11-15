@@ -1,0 +1,57 @@
+
+*{
+margin: 0;
+padding: 0;
+}
+body{
+
+    background-color: coral;
+}
+.encabezado{
+background-color: darkred;
+overflow: hidden;
+
+
+}
+
+.logo{
+float: left;
+width: auto;
+padding: 1px;
+
+}
+
+.container{
+
+    width: 1200;
+    margin: 5px;
+    font-family: cursive;
+    font-style: italic;
+    
+}
+.menu{
+
+    float: right;
+    padding: 90px;
+    font-size: 20px;
+}
+
+.opcionesmenu li{
+float: left;
+list-style: none;
+
+}
+
+.opcionesmenu li a{
+
+    color: white;
+    padding: 30px;
+    text-decoration: none;
+    border: 1px solid white;
+    
+}
+
+.opcionesmenu li a:hover{
+    background-color: teal;
+}
+
